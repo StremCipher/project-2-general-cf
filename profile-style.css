@@ -1,0 +1,40 @@
+.chartdiv{
+    /* margin:0px 100px 0px 100px; */
+    height:200px;
+    width:auto;
+}
+@media(min-width:800px){
+    .chartdiv{
+        margin:0px 100px 0px 100px;
+        height:300px;
+        width:auto;
+    }
+}
+.navbar-nav{
+    display: none;
+}
+@media(min-width:800px){
+    .navbar-nav{
+        display: block;
+    }
+}
+.navbar-header{
+    display: none;
+}
+@media(min-width:800px){
+    .navbar-header{
+        display: block;
+    }
+}
+.toggel-btn-img{
+    height: 30px;
+    width:30px;
+    /* display: none; */
+}
+@media(min-width:800px){
+    .toggel-btn-img{
+        display: none;
+    }
+}
+
+
